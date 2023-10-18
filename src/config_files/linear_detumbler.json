@@ -1,0 +1,29 @@
+{
+    "exp_name": "linear_detumbler_1",
+    "env_name": "Detumbler",
+    "agent_name": "DiffDiscQ",
+    "approximation_type": "linear",
+    "exp_type": "control",
+    "num_runs": 1,
+    "num_max_steps": 20000,
+    "eval_every_n_steps": 500,
+    "robust_to_initialization": true,
+    "num_actions": 3,
+    "num_features": 2,
+    "epsilon_start": 0.1,
+    "epsilon_end": 0.1,
+    "save_weights": 0,
+    "store_max_action_values": true,
+    "tilecoder": true,
+    "num_tilings": 8,
+    "tiling_dims": [3, 3, 3, 3, 3, 3],
+    "limits_per_dim": [[-1, 1], [-1, 1], [-1, 1], [-1, 1], [-1, 1], [-1, 1]],
+    "num_weights": 294921,
+    "sweep_parameters":
+    {
+        "alpha": [0.05],
+        "eta": [0.25],
+        "gamma": [0.99],
+        "reward_offset": [0]
+    }
+}
